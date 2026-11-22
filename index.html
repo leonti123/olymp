@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>OLYMP: столешницы из искусственного камня в Великом Новгороде</title>
-<meta name="description" content="Столешницы, подоконники, раковины и ступени из акрилового камня и кварцевого агломерата. Свой цех в Великом Новгороде, работаем по Новгородской, Ленинградской области и Петербургу.">
+<meta name="description" content="Столешницы, подоконники, раковины и мойки из акрилового камня и кварцевого агломерата. Свой цех в Великом Новгороде, работаем по Новгородской, Ленинградской области и Петербургу.">
 <link rel="icon" href="img/icon.png">
 <link rel="preload" href="fonts/tenorsans-400-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/ibmplexsans-400-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
@@ -103,6 +103,11 @@ nav.menu a:hover{color:var(--ink)}
 .item .pr small{font-weight:400;color:var(--ink2)}
 .item .more{font-size:13px;color:var(--rose)}
 .cat-note{margin-top:22px;color:var(--ink2);font-size:15px}
+.cta-tile{background:var(--ink,#23272c);color:#fff;border-radius:var(--r);box-shadow:var(--sh);display:flex;flex-direction:column;justify-content:flex-end;gap:10px;padding:22px 18px;text-decoration:none;min-height:100%;transition:transform .25s}
+.cta-tile:hover{transform:translateY(-4px)}
+.cta-tile h3{font-size:20px;color:#fff}
+.cta-tile p{font-size:14px;color:rgba(255,255,255,.75);margin:0}
+.cta-tile span{margin-top:6px;font-weight:600;color:var(--rose)}
 
 /* constructor */
 .calc{background:var(--graphite);color:#fff;overflow:hidden}
@@ -322,6 +327,7 @@ dialog::backdrop{background:rgba(20,23,26,.72)}
   .burger{display:block}
   .top .tel{margin-left:0}
   .cat{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .cta-tile{grid-column:1/-1;min-height:0}
   .wgrid{grid-template-columns:repeat(3,minmax(0,1fr))}
   .sgrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:30px 0}
   .egrid{grid-template-columns:repeat(3,minmax(0,1fr))}
@@ -366,6 +372,8 @@ dialog::backdrop{background:rgba(20,23,26,.72)}
   .chip b{font-size:21px}
   .chip span{font-size:13px}
   .cat{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .cta-tile{grid-column:auto;padding:16px 14px}
+  .cta-tile h3{font-size:17px}
   .item .bd{padding:10px 12px 12px}
   .item h3{font-size:16px}
   .item .pr{font-size:14px}
@@ -412,7 +420,7 @@ dialog::backdrop{background:rgba(20,23,26,.72)}
   <div class="wrap">
     <div>
       <h1 data-t>Столешницы из искусственного камня под ваши размеры</h1>
-      <p class="lead" data-t>Делаем в своём цеху в Великом Новгороде из акрилового камня Grandex и кварцевого агломерата: кухни, острова, подоконники, ванные, ступени. Замер, изготовление и монтаж по Новгородской и Ленинградской области и Петербургу.</p>
+      <p class="lead" data-t>Делаем в своём цеху в Великом Новгороде из акрилового камня Grandex и кварцевого агломерата: кухни, острова, подоконники, ванные, камины. Замер, изготовление и монтаж по Новгородской и Ленинградской области и Петербургу.</p>
       <div class="acts">
         <a class="btn" href="#calc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="7" width="18" height="10" rx="1"/><path d="M7 7v4M11 7v6M15 7v4M19 7v6"/></svg><span data-t>Рассчитать столешницу</span></a>
         <a class="btn ghost" data-l="tel" href="tel:+79116060300"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span data-t>Позвонить мастеру</span></a>
@@ -426,7 +434,7 @@ dialog::backdrop{background:rgba(20,23,26,.72)}
     </div>
     <div class="stage">
       <figure class="main" style="margin:0"><img data-i src="img/w/kitchen-grandex-1.jpg" alt="Кухня со столешницей из акрилового камня Grandex" width="1400" height="788" fetchpriority="high"></figure>
-      <figure class="sample" style="margin:0"><img data-i src="img/w/bath-3-s.jpg" alt="Кромка столешницы из акрилового камня" width="480" height="640"><figcaption data-t>Столешница в ванную, кромка без видимых швов</figcaption></figure>
+      <figure class="sample" style="margin:0"><img data-i src="img/w/board-1-s.jpg" alt="Мастер OLYMP с образцом камня" width="480" height="640" style="object-position:50% 20%"><figcaption data-t>Это мы, OLYMP: режем и полируем камень в своём цеху</figcaption></figure>
       <div class="tag"><b data-t>Grandex и кварц</b><span data-t>Подбираем цвет по образцам в цеху или привозим их к вам</span></div>
     </div>
   </div>
@@ -450,7 +458,6 @@ dialog::backdrop{background:rgba(20,23,26,.72)}
     </div>
     <button class="medit" data-me="cat">Изменить изделия и цены</button>
     <div class="cat" id="catL"></div>
-    <p class="cat-note" data-t>Делаем и нестандартные вещи: столы, трибуны, разделочные доски, полки. Пришлите эскиз или фото, посчитаем.</p>
   </div>
 </section>
 
@@ -703,15 +710,14 @@ const DEF = {
   v: 1,
   cat: [
     {id: "kitchen", t: "Кухонные столешницы", d: "Прямые, угловые и П-образные столешницы из акрила и кварца. Вырезы под мойку и варочную, бортики, подсветка под навесными шкафами по желанию.", p: "от 12 000 ₽", u: "за пог. м", img: ["img/w/u-1.jpg", "img/w/u-2.jpg", "img/w/russa-1.jpg"], k: "Кухня"},
-    {id: "island", t: "Острова и барные стойки", d: "Столешницы для островов и барных стоек, с выносом под стулья и скруглёнными углами.", p: "от 14 000 ₽", u: "за пог. м", img: ["img/w/bar-1.jpg", "img/w/bar-2.jpg"], k: "Остров или барная стойка"},
+    {id: "island", t: "Острова и барные стойки", d: "Столешницы для островов и барных стоек, с выносом под стулья и скруглёнными углами.", p: "от 14 000 ₽", u: "за пог. м", img: ["img/w/kitchen-grandex-3.jpg", "img/w/kitchen-grandex-2.jpg", "img/w/bar-1.jpg", "img/w/bar-2.jpg"], k: "Остров или барная стойка"},
     {id: "wall", t: "Стеновые панели и фартуки", d: "Фартук из того же камня, что и столешница: без швов плитки, легко моется.", p: "от 9 000 ₽", u: "за м²", img: ["img/w/green-2.jpg", "img/w/green-3.jpg"], k: "Фартук"},
-    {id: "sill", t: "Подоконники", d: "Подоконники любой длины и формы, в том числе для эркеров и угловых окон. Тёплые на ощупь, не желтеют.", p: "от 5 500 ₽", u: "за пог. м", img: ["img/w/sill-1.jpg", "img/w/sill-2.jpg", "img/w/sill-3.jpg"], k: "Подоконник"},
+    {id: "sill", t: "Подоконники", d: "Подоконники любой длины и формы, в том числе для эркеров и угловых окон. Тёплые на ощупь, не желтеют.", p: "от 5 500 ₽", u: "за пог. м", img: ["img/w/sill-3.jpg", "img/w/sill-2.jpg", "img/w/sill-1.jpg"], k: "Подоконник"},
     {id: "bath", t: "Столешницы для ванной", d: "Столешницы под накладные и встроенные раковины, с вырезами под смеситель.", p: "от 9 000 ₽", u: "за шт.", img: ["img/w/bath-1.jpg", "img/w/bath-2.jpg", "img/w/bath-3.jpg"], k: "Ванная"},
     {id: "sink", t: "Мойки и раковины из камня", d: "Мойки и раковины из акрилового камня, вклеенные в столешницу без зазоров: грязи негде скапливаться.", p: "от 12 000 ₽", u: "за шт.", img: ["img/w/sink-cover.jpg", "img/w/spb-1.jpg"], k: "Мойка или раковина"},
     {id: "fire", t: "Каминные столешницы", d: "Облицовка и полки для каминов из камня, устойчивые к нагреву.", p: "по проекту", u: "", img: ["img/w/fire-1.jpg", "img/w/fire-2.jpg"], k: "Камин"},
-    {id: "stairs", t: "Ступени для лестниц", d: "Ступени и подступенки из камня для домов и коттеджей.", p: "от 7 000 ₽", u: "за ступень", img: ["img/w/stairs.jpg"], k: "Ступени"},
     {id: "table", t: "Столы и нестандарт", d: "Обеденные столы, ресепшены, трибуны и всё, что можно сделать из камня по вашему эскизу.", p: "по проекту", u: "", img: ["img/w/table-1.jpg", "img/w/table-3.jpg", "img/w/tribune-1.jpg"], k: "Нестандартное изделие"},
-    {id: "board", t: "Разделочные доски", d: "Доски из акрилового камня: не впитывают запахи, легко моются. Хороший подарок.", p: "от 1 500 ₽", u: "за шт.", img: ["img/w/board-1.jpg", "img/w/board-2.jpg"], k: "Разделочная доска"}
+    {id: "board", t: "Разделочные доски", d: "Доски из акрилового камня: не впитывают запахи, легко моются. Хороший подарок.", p: "от 1 500 ₽", u: "за шт.", img: ["img/w/board-2.jpg", "img/w/board-1.jpg"], k: "Разделочная доска"}
   ],
   works: [
     {t: "Кухня с островной зоной, Grandex", g: "Кухни", pl: "Совместно со студией Селиванов", img: ["img/w/kitchen-grandex-1.jpg", "img/w/kitchen-grandex-2.jpg", "img/w/kitchen-grandex-3.jpg", "img/w/kitchen-grandex-4.jpg"]},
@@ -719,13 +725,12 @@ const DEF = {
     {t: "Столешница в ванную под накладную раковину", g: "Ванные", pl: "Великий Новгород, ул. Кочетова", img: ["img/w/bath-1.jpg", "img/w/bath-2.jpg", "img/w/bath-3.jpg"]},
     {t: "Яркая зелёная столешница и фартук", g: "Кухни", pl: "Квартира заказчика", img: ["img/w/green-1.jpg", "img/w/green-2.jpg", "img/w/green-3.jpg"]},
     {t: "Столешница сложной формы с бортиками", g: "Кухни", pl: "Загородный дом, Новгородская обл.", img: ["img/w/russa-1.jpg", "img/w/russa-2.jpg", "img/w/russa-3.jpg"]},
-    {t: "Подоконники в коттедж", g: "Подоконники", pl: "Новгородская обл.", img: ["img/w/sill-1.jpg", "img/w/sill-2.jpg", "img/w/sill-3.jpg"]},
+    {t: "Подоконники в коттедж", g: "Подоконники", pl: "Новгородская обл.", img: ["img/w/sill-3.jpg", "img/w/sill-2.jpg", "img/w/sill-1.jpg"]},
     {t: "Каминная столешница", g: "Другое", pl: "Загородный дом", img: ["img/w/fire-1.jpg", "img/w/fire-2.jpg"]},
     {t: "Барная стойка из Grandex", g: "Кухни", pl: "Совместно со студией Селиванов", img: ["img/w/bar-1.jpg", "img/w/bar-2.jpg"]},
     {t: "Обеденный стол из камня", g: "Другое", pl: "д. Шарматово", img: ["img/w/table-1.jpg", "img/w/table-2.jpg", "img/w/table-3.jpg"]},
     {t: "Столешница с мойкой подстольного монтажа", g: "Кухни", pl: "Санкт-Петербург", img: ["img/w/spb-1.jpg"]},
     {t: "Угловая мойка из акрилового камня", g: "Кухни", pl: "Великий Новгород", img: ["img/w/sink-cover.jpg"]},
-    {t: "Трибуна для инаугурации губернатора", g: "Другое", pl: "Великий Новгород", img: ["img/w/tribune-1.jpg"]},
     {t: "Разделочные доски для победителей конкурса", g: "Другое", pl: "Подарки подписчикам", img: ["img/w/board-1.jpg", "img/w/board-2.jpg"]}
   ],
   rv: [
@@ -779,7 +784,8 @@ function renderLinks() {
 function renderCat() {
   $("catL").innerHTML = D.cat.filter(c => !c.hide).map(c => `<button class="item" type="button" data-id="${esc(c.id)}">
     <div class="ph"><img src="${esc(small(c.img[0] || ""))}" alt="${esc(c.t)}" loading="lazy" width="480" height="480"></div>
-    <div class="bd"><h3>${esc(c.t)}</h3><span class="more">Фото и подробности</span><div class="pr">${esc(c.p)} <small>${esc(c.u || "")}</small></div></div></button>`).join("");
+    <div class="bd"><h3>${esc(c.t)}</h3><span class="more">Фото и подробности</span><div class="pr">${esc(c.p)} <small>${esc(c.u || "")}</small></div></div></button>`).join("") +
+    `<a class="cta-tile" href="#order"><h3>Нужно другое изделие?</h3><p>Столы, полки, трибуны, ступени. Пришлите эскиз или фото, посчитаем.</p><span>Оставить заявку →</span></a>`;
   $("fWhat").innerHTML = D.cat.filter(c => !c.hide).map((c, i) => `<label><input type="checkbox" name="what" value="${esc(c.k || c.t)}"${i ? "" : ""}><span>${esc(c.k || c.t)}</span></label>`).join("");
 }
 $("catL").addEventListener("click", e => {
